@@ -1,0 +1,135 @@
+        O que é infraestrutura web?
+
+Infraestrutura web é um conjunto de tecnologias e recursos necessários para suportar a operação de sites e aplicações na internet. 
+Inclui hardware, software, redes, bancos de dados, servidores, entre outros componentes, necessários para disponibilizar conteúdo e serviços na web.
+
+
+    QUAIS AS PRINCIPAIS CARACTERÍSTICAS?
+
+ - Escalabilidade: a infraestrutura web precisa ser capaz de suportar um grande número de usuários e aumentar sua capacidade conforme a demanda cresce;
+ - Confiabilidade: a infraestrutura web deve ser confiável e estar disponível a maior parte do tempo, para que os usuários possam acessar o conteúdo e os serviços;
+ - Segurança: a infraestrutura web precisa ser segura, protegendo os dados dos usuários e evitando ataques de hackers e outras ameaças;
+ - Desempenho: a infraestrutura web deve ter um desempenho adequado para suportar a carga de tráfego e manter a rapidez na entrega de conteúdo e serviços;
+ - Flexibilidade: a infraestrutura web deve ser flexível para atender às necessidades dos usuários e adaptar-se às mudanças de demanda;
+ - Descentralização: Seus componentes físicos e virtuais estão espalhados ao longo do planeta e até no espaço, em comunicação via satélite.
+
+        Infraestrutura Física e Virtual
+
+    Infraestrutura Física
+A infraestrutura física inclui os servidores, equipamentos de rede e outros dispositivos que são instalados em um datacenter ou local físico.
+
+    Infraestrutura Virtual
+A infraestrutura virtual inclui serviços de nuvem, como a Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform, entre outros, que oferecem recursos de infraestrutura 
+virtual sob demanda. Tais serviços são popularmente conhecidos como "nuvens públicas", uma vez que para ter acesso, você só precisa de uma assinatura, sem nenhum tipo pré-requisito 
+específico.
+
+        O QUE SÃO SISTEMAS OPERACIONAIS PARA SERVIDORES WEB?
+
+Um sistema operacional de servidor web é um software responsável por gerenciar recursos de hardware e software em um deste servidor.
+É responsável por fornecer serviços de rede, segurança, armazenamento e gerenciamento de recursos para os aplicativos e serviços que são executados no mesmo.
+
+    QUAIS OPÇÕES TEMOS?
+Os principais sistemas operacionais utilizados em servidores web são Linux (e outros SOS baseados em Unix) e Windows Server:
+ - Windows Server: é um sistema operacional proprietário da Microsoft, que oferece suporte a uma ampla gama de aplicativos e serviços baseados em Windows;
+ - Linux: é um sistema operacional de código aberto e gratuito, que oferece grande flexibilidade e suporte para uma ampla gama de aplicativos e serviços baseado no Unix, um 
+outro SO de código aberto que possui uma longa história no mundo dos servidores web, sendo utilizado em servidores de alto desempenho e escalabilidade.
+
+    QUAIS SUAS PRINCIPAIS CARACTERÍSTICAS?
+
+ - Windows Server é conhecido por sua facilidade de uso e suporte a aplicativos Windows/Microsoft, porém é mais caro do que outras opções e pode ter problemas de segurança 
+ devido a sua grande penetração de mercado, o tornando atrativo para atuação de hackers e fraudadores;
+ - O Linux é altamente personalizável, escalável e provavelmente o mais popular no uso em servidores web. Oferece uma ampla gama de opções de distribuições, mas pode exigir um 
+ conhecimento técnico mais avançado para sua instalação e configuração;
+ - O Unix é conhecido por sua estabilidade e escalabilidade, mas pode ser mais difícil de instalar e configurar do que outras opções. Também possui uma biblioteca de ferramentas 
+ mais restrita devido a sua menor popularidade.
+
+        O QUE CONSIDERAR NA HORA DE ESCOLHER UM SISTEMA OPERACIONAL PARA WEB?
+ - A escolha de um sistema operacional para servidor web deve levar em consideração as necessidades específicas do aplicativo ou serviço que será executado no servidor;
+ - É importante avaliar as características de cada sistema operacional, como facilidade de uso, escalabilidade, segurança e desempenho, para encontrar a melhor opção para o 
+ ambiente de hospedagem;
+ - Vai usar uma Cloud (nuvem pública)? Diferentes Clouds podem praticar diferentes preços dependendo do sistema operacional escolhido para o seu servidor. Fique atento e cuide 
+ bem do seu bolso!
+ - A performance do servidor em questão também deve ser avaliada. O uso de Windows requer uma maior abundância de recursos, já SOS Linux e Unix são mais performáticos e conseguem 
+ trabalhar melhor em ambientes mais escassos de processamento e memória, por exemplo.
+
+        WEB Servers
+
+    O QUE É UM WEB SERVER?
+Um Web Server é um software responsável por receber, processar e enviar solicitações de páginas web para os clientes que as requisitam. É um componente fundamental da 
+infraestrutura da web, permitindo que sites e aplicativos sejam acessados pelos usuários através da internet.
+
+    COMO ELE FUNCIONA?
+Um Web Server funciona através de um protocolo de comunicação chamado HTTP (Hypertext Transfer Protocol). Quando um cliente (como um navegador web) faz uma solicitação para um 
+servidor web, o servidor responde com o conteúdo solicitado (como uma página web ou um arquivo) e o cliente pode visualizá-lo em seu dispositivo.
+
+        COMO ESCOLHER UM WEB SERVER E QUAIS AS OPÇÕES DISPONÍVEIS?
+    Atualmente, os Web Servers mais populares são o Apache (HTTPD), NGINX e o IIS (Internet Information Services). Vamos ver um pouco mais sobre cada um deles:
+
+    Apache (HTTPD):
+ - É um servidor web gratuito e de código aber que foi lançado em 1995;
+ - Apesar de ser largamente conhecido como Apache, seu nome oficial é HTTPD, Apache é o projeto responsável pelo seu desenvolvimento e manutenção;
+ - Ele é amplamente utilizado em todo o mundo e é conhecido por sua estabilidade, segurança e flexibilidade;
+ - O Apache suporta vários sistemas operacionais, incluindo Windows, Linux e Unix, e é capaz de hospedar uma ampla variedade de aplicativos e serviços baseados na web. Apesar 
+ dessa compatibilidade com diversos sistemas operacionais, ele é majoritariamente utilizado em Linux.
+
+    NGINX:
+ - O NGINX é um servidor web gratuito e de código aberto que foi lançado em 2004;
+ - Ele é conhecido por sua alta performance, escalabilidade e baixo consumo de recursos;
+ - O NGINX suporta diversos sistemas operacionais, incluindo Windows, Linux e Unix, e é utilizado para hospedar uma ampla variedade de aplicativos e serviços baseados na web. 
+ Da mesma maneira que o Apache, apesar de sua compatibilidade entre sistemas operacionais, seu uso é mais popular em Linux;
+ - É capaz de lidar com grandes volumes de tráfego sem comprometer o desempenho. No entanto, sua configuração pode ser mais complexa para iniciantes;
+ - Possui uma versão paga chamada NGINX Plus, incluindo várias outras funcionalidades, tais como balanceamento de carga e configurações a quente 
+ (sem a necessidade de restart do web server).
+
+IIS:
+ - O IIS (Internet Information Services) é um servidor web da Microsoft que foi lançado em 1995;
+ - Ele é conhecido por sua facilidade de uso, integração com outras tecnologias Microsoft, bem como melhor performance nesse contexto; É compatível com o sistema operacional 
+Windows e é utilizado principalmente para hospedar aplicativos e serviços baseados plataforma .NET.
+
+    E QUAL ESCOLHER?
+Depende! A escolha do servidor web dependerá das necessidades e objetivos do projeto. Se você procura estabilidade e flexibilidade, porém deseja simplicidade na configuração,
+o Apache pode ser a opção ideal. Entretanto, se sua aplicação tiver um volume muito grande de acessos e você se sente confiante para executar configurações mais complexas,
+o NGINX atenderá sua necessidade. Caso sua aplicação tenha sido desenvolvida sobre alguma tecnologia ou framework da Microsoft, em alguns casos, você não terá opção senão 
+utilizar o IIS.
+
+        Bancos de dados pra web
+
+    O QUE É UM BANCO DE DADOS?
+Um banco de dados é um conjunto de dados organizados e estruturados, armazenados em um sistema computacional. Eles são amplamente utilizados em aplicações web para armazenar e 
+gerenciar informações, como usuários, produtos, pedidos, etc. Existem diversos tipos disponíveis, incluindo bancos de dados relacionais, bancos de dados NoSQL, bancos de dados em 
+memória, entre outros.
+
+    BANCO DE DADOS RELACIONAL (SQL)
+Os bancos de dados relacionais são os mais populares e amplamente utilizados em aplicações web. Eles utilizam a linguagem SQL (Structured Query Language) para consultar e manipular 
+dados. Os bancos de dados relacionais são compostos por tabelas, que são organizadas em linhas e colunas, e estabelecem relações entre elas. Alguns exemplos de bancos de dados 
+relacionais incluem MySQL, PostgreSQL e Oracle.
+
+    BANCO DE DADOS NÃO-RELACIONAL (Not Only SQL)
+Os bancos de dados NoSQL (Not Only SQL) são uma alternativa aos bancos de dados relacionais, projetados para lidar com grandes quantidades de dados não estruturados. Eles não 
+utilizam a linguagem SQL e não possuem esquema fixo, o que permite maior flexibilidade na estruturação dos dados. Alguns exemplos de bancos de dados NoSQL incluem MongoDB,
+Cassandra e Redis.
+
+    ARQUITETURA CLIENTE-SERVIDOR DE BANCO DE DADOS
+A arquitetura cliente-servidor é um modelo utilizado em bancos de dados, em que um cliente (como uma aplicação web) envia solicitações de dados para um servidor de banco de dados, 
+que processa e retorna os resultados. Isso permite que múltiplos clientes acessem o mesmo banco de dados de forma simultânea.
+
+        linguagens de programação para web
+
+    QUAIS LINGUAGENS EU POSSO USAR NA MINHA APLICAÇÃO WEB?
+Existem diversas linguagens de programação disponíveis, cada uma com suas características e finalidades específicas. As linguagens de programação para web são aquelas que são 
+utilizadas para desenvolver aplicações que podem ser acessadas através de um navegador. Muitas linguagens permitem, de alguma forma, desenvolvimento para web, entretanto devido a 
+funcionalidades específicas, algumas são mais populares que outras. Vamos ver quais são as principais?
+
+    HTML
+ - Por definição, o HTML (Hypertext Markup Language) não é uma linguagem de programação e sim de marcação (markup) utilizada para criar páginas web;
+ - Com HTML, é possível estruturar e organizar o conteúdo de uma página web, definindo títulos, parágrafos, imagens, links e outros elementos;
+ - Os navegadores de internet interpretam o código HTML para exibir o conteúdo de uma página web aos usuários;
+ - O HTML é composto por tags ou elementos, que são códigos delimitados por sinais de menor e maior (◇), que indicam a função de cada elemento na página;
+ - O HTML é uma linguagem de marcação de texto, ou seja, não é uma linguagem de programação, mas sim uma forma de definir a estrutura e apresentação do conteúdo de uma página web.
+
+    CSS
+ - CSS (Cascading Style Sheets) é uma linguagem utilizada para definir a aparência visual de páginas web, incluindo cores, fontes, espaçamento, layout e outros aspectos visuais;
+ - Com o CSS, é possível aplicar estilos de forma seletiva a diferentes elementos HTML, utilizando seletores para definir quais elementos serão afetados pelas regras de estilo;
+ - As regras de estilo CSS podem ser definidas em um arquivo separado do HTML, permitindo que múltiplas páginas possam compartilhar um mesmo conjunto de estilos;
+ - Uma das principais vantagens do uso do CSS é a possibilidade de criar páginas web responsivas, que se adaptam automaticamente a diferentes tamanhos de tela, desde dispositivos 
+ móveis até monitores de desktop, melhorando a experiência do usuário e tornando o site mais acessível.
