@@ -1,0 +1,162 @@
+        
+        
+        - - -These are the annotations that I made when coursing Santander Becas selective process (They have the same material) - - -
+
+        
+  
+  Networks is a conjunct of two or more electronic devices connected together that can comunicate with each other in a pre-established language called protocol.
+  This connection can happen in two ways, through a cable or a wireless connection.
+
+  Some of most utilized cables are:
+  -Twisted pair (Unshielded twisted pair and Shielded twisted pair)
+  -Coaxial (usually used on Cable Tv)
+  -optical cable (Fiber Glass Cable)
+  And for wireless connection are:
+  - Radio frequency
+  - Bluetooth   
+  - Infrared 
+
+  These connections are supervised by some norms, including the:
+
+  - NBR 14.565
+  - ANSI/TIA 568
+  - ANSI/TIA 569
+
+  this is made for establish some parameters such as performance, structure and minimun specifications.
+
+  Some equipament used on a network are:
+
+  NIC (Network Interface Card)
+    This is the device responsible for allow the System connect and communicate via cable or wireless to a network.
+  HUB
+    Hub is a hardware that allows the connection between devices through the twisted cables and connected between they.
+    They usually receive signal on 1 channel and reply that signal for a x channels number, so it's a characteristic that they cannot make a direct connection on the network.
+  Switch
+    Switch is responsible for the trade or redirect the data between the devices, differently from the HUB, they can make a direct connection between the devices.
+  Router
+    The Router has the responsibility to search and find the best route to send the packages (data) to a destinatary (devices) in the minor tempo possibile. Strongly used on the internet connections.
+  Modem
+    It's the device responsible for modulation and demodulation of the Internet signal. Usually on domestic use they are modem and Router together.
+  Rack
+    Used to attatch the equipament of the network system and organization of the cables. It's vital for data centers and network infrastructure.
+
+
+  Connections protocols 
+
+  OSI Model
+
+  Open System Interconnection model can go in both ways, 1 to 7 and 7 to 1, according to who is communicating
+    Navigator to Server: 7 to 1
+    Server to navigator: 1 to 7
+
+  7. Application layer
+    Provides protocols that allow software to send and receive information that is meaningful to users. Therefore, it is highly used by items such as internet browsers and email clients.
+Some examples: HTTP, FTP, POP and DNS.
+
+  6. Presentation
+This layer prepares data for the application layer. In other words, it ensures that the information can be used and performs all encryption.
+
+  5. Session
+This is where the OSI model creates the communication channels between devices. As the name suggests, this layer is responsible for opening sessions and ensuring that everything is 
+functional so that data can be transferred.
+
+  4. Transportation
+The transport layer takes the data and breaks it into segments. Then, in the final part, it puts everything back together so that the information reaches the session layer. It transmits through 
+protocols such as TCP and UDP.
+
+  3. Network
+The responsibility of this layer is to transmit data between one host to another on different networks. Likewise, it is worth pointing out that another important function is to take care of 
+routing packets, selecting the shortest path for this.
+
+  2. Data link
+It is in this part that the connection between two nodes physically connected in a network occurs. This layer of the OSI model is composed of two parts: logical link control (LLC), which 
+identifies and checks errors; and media access control (MAC), which uses MAC addresses to connect and set permissions on devices.
+
+  1. Physical layer
+This layer is one of the most important in the OSI model. This is because it is responsible for connecting physical or wireless cables between the entire network. Another feature is that 
+the raw data is transmitted from here.
+
+  TCP/IP
+    Transmission Control Protocol/Internet Protocol
+    He confirm if the data was received.
+
+    1. The application layer provides applications with standardized data exchange. Its protocols include HTTP, FTP, Post Office Protocol 3, Simple Mail Transfer Protocol and Simple Network Management Protocol. 
+    At the application layer, the payload is the actual application data.
+    
+    2. The transport layer is responsible for maintaining end-to-end communications across the network. TCP handles communications between hosts and provides flow control, multiplexing and reliability. 
+    The transport protocols include TCP and User Datagram Protocol, which is sometimes used instead of TCP for special purposes.
+
+    3. The network layer, also called the internet layer, deals with packets and connects independent networks to transport the packets across network boundaries. The network layer protocols are IP and 
+    Internet Control Message Protocol, which is used for error reporting.
+
+    4. The physical layer, also known as the network interface layer or data link layer, consists of protocols that operate only on a link -- the network component that interconnects nodes or hosts in the 
+    network. The protocols in this lowest layer include Ethernet for local area networks and Address Resolution Protocol.
+
+  UDP
+    User Datagram Protocol 
+    UDP operates at transport layer. UDP is commonly used for applications that are “lossy” (can handle some packet loss), such as streaming audio and video. It is also used for query-response applications, 
+    such as DNS queries.
+    He not confirm if the data was received 
+
+
+    IPV4 and IPV6
+
+    IP - Internet Protocol
+
+The term ip is the protocol responsible for addressing packets at layer 3 of the OSI model, that is, it is responsible for generating an address for your co-computer, or any server, when it is 
+connected to the internet. Currently there are two formats ipv4 and ipv6
+
+IPV4: 192.168.0.1
+32-bit format (4 Bytes) where each byte can range from 0 to 255
+
+IPV6: 2001:0000:130F:0000:0000:09C0:876A:130B
+
+An IPv6 address is represented as a set of 16-bit hexadecimals separated by colons. An IPv6 address is divided into eight groups, and each 16-bit group is represented by four hexadecimal numbers.
+
+NAT 
+
+NAT stands for network address translation. It's a way to map multiple private addresses inside a local network to a public IP address before transferring the information onto the internet. 
+Organizations that want multiple devices to employ a single IP address use NAT, as do most home routers.
+
+Sub-Net 
+
+Sub-net are multiple networks in a single system, this can be used to divide a Enterprise sectors, like commercial, administration, etc.
+
+IP Classes
+
+https://miro.medium.com/v2/resize:fit:1358/1*wbYRk65-lnwsWYSFJ656xw.png
+
+Defines the amount of sub-networks and ip addresses available on the system
+
+Decimal to binary 
+
+https://byjus.com/maths/decimal-to-binary/
+
+Domain Name System DNS: translates human readable domain names (for example, www.amazon.com) to machine readable IP addresses (for example, 192.0.2.44). See 1 to 5 to understand the parts of a DNS.
+
+1. Protocol: A set of rules or procedures for transmitting data between electronic devices, like FTP for files and HTPPS for websites.
+example: HTTP, HTTPS, FTP, TCP/IP.
+
+2. Subdomain: A subdomain name is a piece of additional information added to the beginning of a website's domain name. It allows websites to 
+separate and  organize content for a specific function — such as a blog or an online store — from the rest of your website.
+example: www. Blog. Admin.
+
+3. Domain: It's a Alfanumeric adress that link to a ip Adress, searched by the TLD and redirected by routers.
+example : google, facebook, orkut.
+
+4. Top Level Domain (TLD): a root domain redirect to a DNS responsable to redirect you to de correct ip 
+Example: .ORG .COM .NET.
+
+5.Subdirectory: A subdirectory is a type of website hierarchy under a root domain that uses folders to organize content on a website.
+
+Latency: Time that the system takes to send and receive packages (data).
+
+Cache: stores the data in a memory near you to reduce latency.
+
+Content Delivery Network CDN: A content delivery network is a distributed group of servers that caches content near end users. Learn how CDNs improve load times and reduce costs.
+
+Network Commands on windows:
+
+https://www.simplilearn.com/tutorials/cyber-security-tutorial/understanding-the-networking-commands
+
+Cisco Packet Tracer, Very useful for creating test networks.
