@@ -1,0 +1,24 @@
+            Design Patterns
+
+https://www.scitepress.org/PublishedPapers/2021/104388/104388.pdf
+
+
+        O que são?
+São padrões de projetos que foram criados para solucionar problemas recorrentes da programação orientada a objetos. Esses padrões não são meros trechos de código, mas sim conceitos 
+complexos que combinam estratégias para resolver um problema existente.
+
+        Para que servem?
+Usados para solucionar problemas comuns que costumamos enfrentar no dia a dia.
+
+        Quem usa?
+Os melhores programadores! Eles não reinventam a roda, mas para solucionar problemas comuns, eles usam esses padrões, que já foram extremamente testados pela comunidade. 
+Consequentemente, ganhamos segurança e confiabilidade.
+
+        Em quais linguagens podem ser usados?
+Qualquer linguagem orientada a objetos, como Java, C#, Python, etc.
+
+        Tipos de padrões Design Patterns
+Atualmente, temos 23 padrões catalogados. Eles estão divididos em:
+ - Creational (Criacionais): trata da criação de objetos.
+ - Structural (Estruturais): relação entre os objetos e como eles interagem entre si (composição por exemplo).
+ - Behavioral (Comportamentais): comunicação entre os objetos, em termos de responsabilidades e algoritmos. Chamadas de métodos etc.
