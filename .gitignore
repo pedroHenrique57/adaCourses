@@ -1,1 +1,2 @@
-*.vscode
+/.vscode
+/Introdução a data science/.ipynb_checkpoints
