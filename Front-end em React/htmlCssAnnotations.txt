@@ -1,0 +1,51 @@
+    HTTP
+
+ - HTTP: do inglês, HyperText Transfer Protocol, ou seja, Protocolo de Transferência de Hipertexto.
+ - Trata-se de um protocolo que define como as mensagens devem ser enviadas pelo cliente e pelo servidor em uma Rede IP.
+ - É sobretudo utilizada para a solicitação/recebimento de páginas web pela Internet.
+
+    HTTPS
+
+ - Do inglês, HiperText Transfer Protocol Secure; ou seja, Protocolo de Transferência de Hipertexto Seguro.
+ - É usado para criptografia e autenticação de comunicação entre o servidor web e o navegador.
+ - Sem criptografia, os dados na web seriam lidos como texto simples por qualquer pessoa com acesso à rede relevante.
+ - As páginas da Internet utilizam este protocolo para evitar que terceiros manipulem as informações trocadas entre o site e o usuário.
+
+        Métodos HTTP
+
+Qual ação desejamos executar?
+1. GET: utilizado quando se deseja obter um recurso do servidor.
+2. POST: utilizado para enviar dados (arquivos,formulários) para o servidor.
+3. PUT: utilizado quando se deseja modificar um dado do servidor.
+4. DELETE: utilizado quando se deseja deletar um dado do servidor.
+5. PATCH: utilizado quando se deseja realizar alterações parciais em um dado do servidor.
+
+    Outros métodos pouco usuais são:
+O HEAD
+O CONNECT
+O OPTIONS
+O TRACE
+
+    Mensagens HTTP
+
+As mensagens de requisição e resposta podem ser divididas em duas partes:
+ -  Cabeçalho (header)
+ -  Corpo (payload)
+
+ Requisição HTTP modelo exemplo
+
+método - GET / HTTP/1.1  - versão do protocolo | / - Path
+        Host:developer.mozilla.org  - headers
+        Accept-Language: fr         - headers
+
+
+Resposta HTTP modelo exemplo
+
+versão do protocolo - HTTP/1.1 200 OK  - HTTP status code(200) e mensagem de status(OK)
+                      Date: Sat, 09 Oct 2010 14:28:02 GMT          - <headers
+                      Server: Apache
+                      Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+                      ETag: "51142bc1-7449-479b075b2891b"
+                      Accept-Ranges: bytes
+                      Content-Length: 29769
+                      Content-Type: text/html                      - headers/>
