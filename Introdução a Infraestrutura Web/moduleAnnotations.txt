@@ -65,46 +65,6 @@ outro SO de código aberto que possui uma longa história no mundo dos servidore
  - Sem criptografia, os dados na web seriam lidos como texto simples por qualquer pessoa com acesso à rede relevante.
  - As páginas da Internet utilizam este protocolo para evitar que terceiros manipulem as informações trocadas entre o site e o usuário.
 
-
-         Métodos HTTP
-        
-Qual ação desejamos executar?
-1. GET: utilizado quando se deseja obter um recurso do servidor.
-2. POST: utilizado para enviar dados (arquivos,formulários) para o servidor.
-3. PUT: utilizado quando se deseja modificar um dado do servidor.
-4. DELETE: utilizado quando se deseja deletar um dado do servidor.
-5. PATCH: utilizado quando se deseja realizar alterações parciais em um dado do servidor.
-
-    Outros métodos pouco usuais são:
-O HEAD
-O CONNECT
-O OPTIONS
-O TRACE
-
-    Mensagens HTTP
-
-As mensagens de requisição e resposta podem ser divididas em duas partes:
- -  Cabeçalho (header)
- -  Corpo (payload)
-
-  Requisição HTTP modelo exemplo
-
-método - GET / HTTP/1.1  - versão do protocolo | / - Path
-        Host:developer.mozilla.org  - payload
-        Accept-Language: fr         - payload
-
-
-Resposta HTTP modelo exemplo
-
-versão do protocolo - HTTP/1.1 200 OK  - HTTP status code(200) e mensagem de status(OK)
-                      Date: Sat, 09 Oct 2010 14:28:02 GMT          - <payload
-                      Server: Apache
-                      Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
-                      ETag: "51142bc1-7449-479b075b2891b"
-                      Accept-Ranges: bytes
-                      Content-Length: 29769
-                      Content-Type: text/html                      - payload/>
-
         WEB Servers
 
     O QUE É UM WEB SERVER?
@@ -186,3 +146,56 @@ funcionalidades específicas, algumas são mais populares que outras. Vamos ver 
  - As regras de estilo CSS podem ser definidas em um arquivo separado do HTML, permitindo que múltiplas páginas possam compartilhar um mesmo conjunto de estilos;
  - Uma das principais vantagens do uso do CSS é a possibilidade de criar páginas web responsivas, que se adaptam automaticamente a diferentes tamanhos de tela, desde dispositivos 
  móveis até monitores de desktop, melhorando a experiência do usuário e tornando o site mais acessível.
+
+    JavaScript
+ - É uma linguagem de programação utilizada para criar interações e funcionalidades em páginas web. Ela permite manipular o conteúdo e a aparência de uma página web dinamicamente, sem a necessidade de recarregar a página;
+ - Possui a característica de ser Client Side Rendering, ou seja, o código JavaScript é entregue ao browser pelo Web Server e toda sua execução é feita na máquina do usuário e não pelo servidor onde ele está hospedado;
+ - O JavaScript é uma linguagem interpretada, ou seja, não precisa ser compilada para ser executada, e é suportada pelos principais navegadores web, incluindo Google Chrome, Firefox e Microsoft Edge;
+
+PHP
+
+ - PHP (Hypertext Preprocessor) é uma linguagem de programação utilizada para criar aplicações web dinâmicas. Ele permite interagir com bancos de dados, enviar e-mails, criar formulários, entre outras funcionalidades;
+ - É uma linguagem Server Side Rendering, ou seja, todo código é executado no servidor e apenas o resultado é enviado ao navegador do cliente;
+ - O PHP possui uma vasta comunidade de desenvolvedores e suporte de diversas plataformas, tornando-a uma opção popular para desenvolvimento de projetos web de diferentes tipos e tamanhos.
+
+
+
+
+         Métodos HTTP
+        
+Qual ação desejamos executar?
+1. GET: utilizado quando se deseja obter um recurso do servidor.
+2. POST: utilizado para enviar dados (arquivos,formulários) para o servidor.
+3. PUT: utilizado quando se deseja modificar um dado do servidor.
+4. DELETE: utilizado quando se deseja deletar um dado do servidor.
+5. PATCH: utilizado quando se deseja realizar alterações parciais em um dado do servidor.
+
+    Outros métodos pouco usuais são:
+O HEAD
+O CONNECT
+O OPTIONS
+O TRACE
+
+    Mensagens HTTP
+
+As mensagens de requisição e resposta podem ser divididas em duas partes:
+ -  Cabeçalho (header)
+ -  Corpo (payload)
+
+  Requisição HTTP modelo exemplo
+
+método - GET / HTTP/1.1  - versão do protocolo | / - Path
+        Host:developer.mozilla.org  - payload
+        Accept-Language: fr         - payload
+
+
+Resposta HTTP modelo exemplo
+
+versão do protocolo - HTTP/1.1 200 OK  - HTTP status code(200) e mensagem de status(OK)
+                      Date: Sat, 09 Oct 2010 14:28:02 GMT          - <payload
+                      Server: Apache
+                      Last-Modified: Tue, 01 Dec 2009 20:18:22 GMT
+                      ETag: "51142bc1-7449-479b075b2891b"
+                      Accept-Ranges: bytes
+                      Content-Length: 29769
+                      Content-Type: text/html                      - payload/>
