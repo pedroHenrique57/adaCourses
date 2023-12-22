@@ -1,2 +1,5 @@
 NumPy Documentation:
 https://numpy.org/doc/1.18/numpy-user.pdf
+
+Pandas Documentation:
+https://pandas.pydata.org/docs/
