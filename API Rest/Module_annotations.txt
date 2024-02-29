@@ -1,10 +1,63 @@
 API = https://pt.wikipedia.org/wiki/Interface_de_programa%C3%A7%C3%A3o_de_aplica%C3%A7%C3%B5es
 
-HTTP = protocolo utilizado para comunicações Web
+HTTP = protocol used for Web communications
 
-Rest= https://pt.wikipedia.org/wiki/REST 
-(Representational State Transfer) define um conjunto de restrições a serem usadas para a criação de um tipo especial de serviços-Web, denominados Web services RESTful, 
-que fornecem interoperabilidade entre sistemas de computadores na Internet; RESTful permite que os sistemas solicitantes acessem e manipulem representações textuais de 
-recursos da Web usando um conjunto uniforme e predefinido de operações sem estado (requisição e resposta independentes).
+Rest = https://pt.wikipedia.org/wiki/REST
 
- Padrão criado para utilização do HTTP para API's (como nossos end points)
+Representational State Transfer defines a set of constraints to be used for creating a special type of Web services, called RESTful Web services, which provide interoperability between computer systems on the Internet; RESTful allows requesting systems to access and manipulate textual representations of Web resources using a uniform and predefined set of stateless operations (independent request and response).
+
+Standard created for the use of HTTP for APIs (such as our endpoints, methods, and body)
+
+Components of HTTP communications
+
+URL / URI = Resource Location, Resource Address.
+
+URL = Mask for URI, for easy usage. Ex = Google.com URI = Raw address, usually an IPv4. Ex = 192.168.1.1:4579
+
+Building a URL:
+
+http:// - protocol
+
+{
+www. - Subdomain
+{
+Google - SLD (Second Level Domain)
+.com.br - TLD (Top Level Domains)
+} Domain
+} Host
+
+:25565/ - Port
+
+{
+abcde/ - Directory
+arquivo.php - File
+} Path
+
+?Name=Ruby&Subject=fundamentals - Query Strings / parameters
+
+#starting - Fragment
+
+Header = Call data
+
+Body = Data to process
+
+Methods = Action to take
+
+    Types of Methods
+
+Get = Obtain
+
+Post = create
+
+Put/Patch = make changes
+
+Delete = Delete
+
+  Status code = https://developer.mozilla.org/en-US/docs/Web/HTTP/Status
+
+  Header Authorization = Used in calls that should be restricted. Must be encrypted. It's an identifier, like an identification badge.
+
+  JWT = creates a hash for encryption. Creates securely and simply.
+
+  Header Cookies = Used to provide relevant usage information between the server and the client. They are stored on the client. 
+The server can also send cookies to the client, such as providing a session identifier.
