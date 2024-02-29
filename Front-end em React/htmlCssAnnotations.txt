@@ -10,6 +10,7 @@
  - É usado para criptografia e autenticação de comunicação entre o servidor web e o navegador.
  - Sem criptografia, os dados na web seriam lidos como texto simples por qualquer pessoa com acesso à rede relevante.
  - As páginas da Internet utilizam este protocolo para evitar que terceiros manipulem as informações trocadas entre o site e o usuário.
+ - É usado como certificado por exemplo os SSL.
 
         Métodos HTTP
 
